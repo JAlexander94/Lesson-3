@@ -7,9 +7,19 @@ header {
     top:0;
     width:100%;
     background-color:#649c67;
-    text-align:center;
+    text-align:left;
     height: 120px;
     padding: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    position: fixed;
+    right: 25px;
+    top:0px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 25px;
 }
 footer {
     position:fixed;
@@ -28,6 +38,8 @@ body{
 h1{
     margin:0px;
 }
+
+
 
   /* Style inputs */
   input[type=text], select, textarea {
